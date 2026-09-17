@@ -1,4 +1,4 @@
-# Notation — Next.js 16 + Prisma 7 + PostgreSQL
+# Blog Tech — Next.js 16 + Tailwind 4 + Prisma 7 + PostgreSQL + Markdown
 
 This version keeps the original Notation visual design and moves blog data, search, category filters, tag filters, sorting, and article lookup to PostgreSQL through Prisma 7.
 
