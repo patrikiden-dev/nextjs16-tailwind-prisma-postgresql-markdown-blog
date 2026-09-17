@@ -1,12 +1,22 @@
 # Blog Tech — Next.js 16 + Tailwind 4 + Prisma 7 + PostgreSQL + Markdown
 
-This version keeps the original Notation visual design and moves blog data, search, category filters, tag filters, sorting, and article lookup to PostgreSQL through Prisma 7.
+Blog Tech are fullstack application in NextJS 16 App Router and contains blog data (markdown), search, category filters, tag filters, sorting, and article lookup to PostgreSQL through Prisma 7.
+For Full text Search I have used the PostgreSQL database with Prisma 7 with the fullTextSearchPostgres preview feature, instead of Virutal Tables. Because this is just a small blog application.
+In a real world application with thousand of blog posts, I would have used Virutal Tables.
+The blog is styles with Tailwind 4.
 
 ## Requirements
 
 - Node.js 20.9+
+- NextJS 16 App Router
 - PostgreSQL running locally
-- A PostgreSQL database named `notation` (or change `DATABASE_URL`)
+- Prisma 7 with PostgreSQL adapter and fullTextSearchPostgres preview feature.
+- A PostgreSQL database named `next16_prisma_blog` (or change `DATABASE_URL`)
+
+## Sample Data
+Are located in /src/data/posts.ts and the content is in Markdown format.
+This sample data needs to be seeded to the PostgreSQL database before running the application.
+
 
 ## 1. Install
 
