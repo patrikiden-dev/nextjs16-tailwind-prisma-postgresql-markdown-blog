@@ -5,6 +5,8 @@ For Full text Search I have used the PostgreSQL database with Prisma 7 with the 
 In a real world application with thousand of blog posts, I would have used Virutal Tables.
 The blog is styles with Tailwind 4.
 
+![img.png](img.png)
+
 ## Requirements
 
 - Node.js 20.9+
@@ -14,9 +16,8 @@ The blog is styles with Tailwind 4.
 - A PostgreSQL database named `next16_prisma_blog` (or change `DATABASE_URL`)
 
 ## Sample Data
-Are located in /src/data/posts.ts and the content is in Markdown format.
+Are located in `/src/data/posts.ts` and the content is in Markdown format. 
 This sample data needs to be seeded to the PostgreSQL database before running the application.
-
 
 ## 1. Install
 
