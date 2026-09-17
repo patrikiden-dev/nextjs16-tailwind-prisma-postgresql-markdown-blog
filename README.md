@@ -1,11 +1,11 @@
 # Blog Tech — Next.js 16 + Tailwind 4 + Prisma 7 + PostgreSQL + Markdown
 
-Blog Tech are fullstack application in NextJS 16 App Router and contains blog data (markdown), search, category filters, tag filters, sorting, and article lookup to PostgreSQL through Prisma 7.
+Blog Tech are fullstack Blog application in NextJS 16 App Router. The blog have functionality like: search, category filters, tag filters, sorting, and article lookup to PostgreSQL through Prisma 7.
 For Full text Search I have used the PostgreSQL database with Prisma 7 with the fullTextSearchPostgres preview feature, instead of Virutal Tables. Because this is just a small blog application.
 In a real world application with thousand of blog posts, I would have used Virutal Tables.
 The blog is styles with Tailwind 4.
 
-![img.png](img.png)
+![Screenshot of Blog Landing Page](img.png)
 
 ## Requirements
 
